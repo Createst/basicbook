@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-cn">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style type="text/css">
+	*{margin:0px;padding:0px;font-family:"微软雅黑";font-size:14px;}
+	li{list-style:none;}
+	section{width:100%;height:900px;}
+	section h1{height:70px;text-align:center;line-height:70px;color:#00ffff;font-size:32px;}
+	section > ul > li{height:200px;border:1px dotted #00ff33;position:relative;}
+	section > ul > li h2{height:30px;color:#00ffff;font-size:24px;}
+	section > ul > li ul li{width:150px;height:150px;background:blue;float:left;margin-left:150px;margin-top:10px;border-radius:5px;color:white;transition:all .5s linear;line-height:150px;cursor:pointer;}
+	.translate > li:nth-child(1):hover{transform:translate(20px,20px);}
+	.translate > li:nth-child(2):hover{transform:translateX(20px);}
+	.translate > li:nth-child(3):hover{transform:translateY(20px);}
+	.scale > li:nth-child(1):hover{transform:scale(1.2,1.2);}
+	.scale > li:nth-child(2):hover{transform:scaleX(1.2);}
+	.scale > li:nth-child(3):hover{transform:scaleY(1.2);}
+	.rotate > li:nth-child(1):hover{transform:rotate(60deg);}
+	.rotate > li:nth-child(2):hover{transform:rotateX(60deg);}
+	.rotate > li:nth-child(3):hover{transform:rotateY(60deg);}
+	.rotate2 > li:nth-child(1):hover{transform:rotate(60deg);transform-origin:left top;}
+	.rotate2 > li:nth-child(2):hover{transform:rotate(60deg);transform-origin:right top;}
+	.rotate2 > li:nth-child(3):hover{transform:rotate(60deg);transform-origin:right bottom;}
+	.skew > li:nth-child(1):hover{transform:skew(30deg,30deg);}
+	.skew > li:nth-child(2):hover{transform:skewX(30deg);}
+	.skew > li:nth-child(3):hover{transform:skewY(30deg);}
+  </style>
+ </head>
+ <body>
+  <section>
+  <h1>变形</h1>
+	<ul>
+		<li><h2>1、平移</h2><ul class="translate"><li>translate(10px,10px)</li><li>translateX(10px)</li><li>translateY(10px)</li></ul></li>
+		<li><h2>2、缩放</h2><ul class="scale"><li>scale(1.2,1.2)</li><li>scaleX(1.2)</li><li>scaleY(1.2)</li></ul></li>
+		<li><h2>3、旋转</h2><ul class="rotate"><li>rotate(60deg)</li><li>rotateX(60deg)</li><li>rotateY(60deg)</li></ul></li>
+		<li><h2>4、旋转</h2><ul 
+		class="rotate2"><li>transformorigin:left top;</li><li>right top;</li><li>right bottom;</li></ul></li>
+		<li><h2>5、倾斜</h2><ul class="skew"><li>skew(30deg,30deg)</li><li>skewX(30deg)</li><li>skewY(30deg)</li></ul></li>
+	</ul>
+  </section>
+ </body>
+</html>

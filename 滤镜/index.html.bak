@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-cn">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style type="text/css">
+	*{margin:0px;padding:0px;font-family:"微软雅黑";font-size:14px;}
+	li{list-style:none;}
+	section{width:100%;height:900px;}
+	section h1{height:70px;text-align:center;line-height:70px;color:#00ffff;font-size:32px;}
+	section > ul > li{height:860px;border:1px dotted #00ff33;position:relative;}
+	section > ul > li p{font-size:16px;color:#ff66cc;}
+	section > ul > li ul li{width:160px;height:260px;float:left;margin:30px 0px 0px 80px;;transition:all .5s linear;cursor:pointer;text-align:center;border:1px solid red;}
+	.image1 > li:hover{transform:scale(1.1);}
+	.image1 > li:nth-child(2) img{-webkit-filter:grayscale(1);}
+	.image1 > li:nth-child(3) img{-webkit-filter:sepia(1);}
+	.image1 > li:nth-child(4) img{-webkit-filter:saturate(3);}
+	.image1 > li:nth-child(5) img{-webkit-filter:hue-rotate(180deg);}
+	.image1 > li:nth-child(6) img{-webkit-filter:invert(1);}
+	.image1 > li:nth-child(7) img{-webkit-filter:opacity(.6);}
+	.image1 > li:nth-child(8) img{-webkit-filter:brightness(2);}
+	.image1 > li:nth-child(9) img{-webkit-filter:contrast(2);}
+	.image1 > li:nth-child(10) img{-webkit-filter:blur(2px);}
+	.image1 > li:nth-child(11) img{-webkit-filter:drop-shadow(2px 1px 1px #ccc);}
+	
+  </style>
+ </head>
+ <body>
+  <section>
+  <h1>图片边框</h1>
+	<ul>
+		<li>
+		<ul class="image1">
+		<li><img src="11.png"/><p>原图</p></li> 
+		<li><img src="11.png"/><p>-webkit-filter:<br>grayscale(1);灰度</p></li>
+		<li><img src="11.png"/><p>-webkit-filter:<br>sepia(1);褐色</p></li>
+		<li><img src="11.png"/><p>-webkit-filter:<br>saturate(3);饱和度</p></li>
+		<li><img src="11.png"/><p>-webkit-filter:<br>hue-rotate(180deg);色相旋转</p></li>
+		<li><img src="11.png"/><p>-webkit-filter:<br>invert(1);反转</p></li>
+		<li><img src="11.png"/><p>-webkit-filter:<br>opacity(.6);透明</p></li>
+		<li><img src="11.png"/><p>-webkit-filter:<br>brightness(2);亮度</p></li>
+		<li><img src="11.png"/><p>-webkit-filter:<br>contrast(2);对比度</p></li>
+		<li><img src="11.png"/><p>-webkit-filter:<br>blur(2px);模糊</p></li>
+		<li><img src="11.png"/><p>-webkit-filter:<br>drop-shadow(2px 1px 1px #ccc);阴影</p></li>
+		</ul>
+		</li>
+		
+		
+	</ul>
+  </section>
+ </body>
+</html>

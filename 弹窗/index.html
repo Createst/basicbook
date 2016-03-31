@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="mytool.js"></script>
+	<link type="text/css" rel="stylesheet" href="popbox.css"/>
+  <style>
+
+  </style>
+ </head>
+ <body>
+<!--   <div class="bigbox"> -->
+<!--  -->
+<!--   <section class="smallbox"> -->
+<!-- 	<p>请输入标题</p> -->
+<!-- 	<div class="text">请输入内容请输入内容请输入内容请输入内容请输入内容请输入内容请输入内容请输入内容请输入内容</div> -->
+<!-- 	 <footer><a href="" class="btok">确定</a><a href="" class="btconcel">取消</a></footer> -->
+<!--   </section> -->
+<!--   -->
+<!--   </div> -->
+	<input type="button" value="点击"/>
+  <script>
+		
+
+
+		$("input").on("click",function(){
+		
+		
+		$.popBox({bigBoxOpacity:"0",titleContent:"提示",titlePosition:"center",titleColor:"red",contentColor:"blue",popWay:"fade",popSpeed:"fast"});
+		})
+	
+  </script>
+ </body>
+</html>
